@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .input-control {
+    width: 50%;
+  }
+}
+
+body::before {
+  display: block;
+  height: 56px;
+  content: '';
+}
