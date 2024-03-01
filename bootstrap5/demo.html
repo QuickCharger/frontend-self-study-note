@@ -22,7 +22,12 @@
   1 = 0.25rem | 2 = 0.5rem | 3 = 1rem | 4 = 1.5rem | 5 = 3rem
   p-5 => padding 5px | pt-5 => padding top 5px
   gap-3 => gap 1rem 容器内行列的宽度
-  bg-primary 蓝色 | bg-secondary 灰色 |  bg-success 绿色 | bg-info 蓝绿色 | bg-warning 黄色 | bg-danger 红色 | bg-dark 黑色 | bg-light 浅灰色
+
+  bg-primary 蓝色 | bg-secondary 灰色
+  bg-success 绿色 | bg-info 蓝绿色 | bg-warning 黄色 | bg-danger 红色
+  bg-white 白色 | bg-dark 黑色 | bg-light 浅灰色
+  bg-transparent 透明
+
   1rem => 16px
   
   文章链接
@@ -102,7 +107,7 @@ if(width>1400px) => max-width=1320px</pre>
               <td>小于时占据整行， 大于时col-3</td>
             </tr>
             <tr>
-              <td>class="col-md-3 col-lg-6"</td>
+              <td>class="col-12 col-sm-3 col-lg-6"</td>
               <td>小于sm时占据整行， sm-lg时col-3， 大于lg时col-6</td>
             </tr>
           </tBody>
@@ -1336,19 +1341,19 @@ rounded-{0...3}
           data-bs-content="弹出框内的一些内容">Toggle popover</button>
       </div>
       <div class="col-1">
-        <a href="javascript: void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="top"
+        <a href="javascript:void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="top"
           data-content="Content">Top</a>
       </div>
       <div class="col-1">
-        <a href="javascript: void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="bottom"
+        <a href="javascript:void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="bottom"
           data-content="Content">Bottom</a>
       </div>
       <div class="col-1">
-        <a href="javascript: void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="left"
+        <a href="javascript:void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="left"
           data-content="Content">Left</a>
       </div>
       <div class="col-1">
-        <a href="javascript: void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="right"
+        <a href="javascript:void(0);" title="标题" data-bs-toggle="popover" data-bs-placement="right"
           data-content="Content">Right</a>
       </div>
       <div class="col-2">
