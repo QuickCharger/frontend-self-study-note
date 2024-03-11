@@ -73,6 +73,47 @@ if(width>1400px) => max-width=1320px</pre>
       </table>
     </section>
 
+    <section class="bg-light mt-5">
+      <h2>width heigh margin padding</h2>
+      <table class="table table-bordered table-hover table-md">
+        <thead>
+          <tr class="table-primary">
+            <th class="col-3">class</th>
+            <th class="col-auto">说明</th>
+            <th>演示</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>[w|h]-[25|50|75|100]</td>
+            <td class="text-danger">w-100 w-50 h-100 h-50</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>[mw|mh]-[25|50|75|100]</td>
+            <td>max-width max-height</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>[min|max]-[vw|vh]-100</td>
+            <td>vw-100 min-vw-100 只有100一个值</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p>m[t|b|s|e|x|y]-{breakpoints}-[0...5|auto]</p>
+              <p>p[t|b|s|e|x|y]-{breakpoints}-[0...5]</p>
+            </td>
+            <td>
+              <p>top|bottom|start|end m-3 me-lg-5 mx-auto</p>
+              <p><span class="text-danger">auto仅margin可用, 仅在弹性布局下可用,尽可能的多占空间,多个auto平分空间</span></p>
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
     <section class="mt-5">
       <h2>position 标签{相对}位置</h2>
       <table class="table table-bordered table-hover table-md">
@@ -437,47 +478,6 @@ table table-cell table-row </pre>
       <a href="https://getbootstrap.com/docs/5.3/content/tables/#overview" target="_blank">
         https://getbootstrap.com/docs/5.3/content/tables/#overview
       </a>
-    </section>
-
-    <section class="bg-light mt-5">
-      <h2>width heigh margin padding</h2>
-      <table class="table table-bordered table-hover table-md">
-        <thead>
-          <tr class="table-primary">
-            <th class="col-3">class</th>
-            <th class="col-auto">说明</th>
-            <th>演示</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>[w|h]-[25|50|75|100]</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>[mw|mh]-[25|50|75|100]</td>
-            <td>max-width max-height</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>[min|max]-[vw|vh]-100</td>
-            <td>vw-100 min-vw-100 只有100一个值</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>
-              <p>m[t|b|s|e|x|y]-{breakpoints}-[0...5|auto]</p>
-              <p>p[t|b|s|e|x|y]-{breakpoints}-[0...5]</p>
-            </td>
-            <td>
-              <p>top|bottom|start|end m-3 me-lg-5 mx-auto</p>
-              <p><span class="text-danger">auto仅margin可用, 仅在弹性布局下可用,尽可能的多占空间,多个auto平分空间</span></p>
-            </td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
     </section>
 
     <section class="mt-5">
